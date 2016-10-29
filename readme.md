@@ -1,4 +1,4 @@
-## sleazycase
+## celebrify
 
 [![CircleCI](https://circleci.com/gh/Nemsae/sleazycase.svg?style=shield)](https://circleci.com/gh/Nemsae/sleazycase)
 

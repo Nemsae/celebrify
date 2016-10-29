@@ -1,6 +1,5 @@
 const assert = require('chai').assert;
 const expect = require('chai').expect;
-// const { expect, assert } = require('chai');
 
 const celebrify = require('./'); //  automatically resolve to index.js
 
