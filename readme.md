@@ -1,6 +1,6 @@
 ## celebrify
 
-[![CircleCI](https://circleci.com/gh/Nemsae/sleazycase.svg?style=shield)](https://circleci.com/gh/Nemsae/sleazycase)
+[![CircleCI](https://circleci.com/gh/Nemsae/celebrify.svg?style=shield)](https://circleci.com/gh/Nemsae/celebrify)
 
 Get a random quote from Jayden Smith, DJ Khaled, or George W. Bush.
 
