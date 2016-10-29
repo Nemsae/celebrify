@@ -9,15 +9,16 @@ function celebrify (str) {
   let resultStr = '';
 
   switch (str) {
-    // case 'jayden':
-    // case 'jayden smith':
-    // case 'jayden Smith':
-    // case 'Jayden Smith':
-    // case 'Jayden smith':
+    case 'jayden':
+    case 'jayden smith':
+    case 'jayden Smith':
+    case 'Jayden Smith':
+    case 'Jayden smith':
     case 'Jayden': {
       let randomNum = Math.floor(Math.random() * jaydenArr.length);
       resultStr = jaydenArr[randomNum];
     } break;
+    case 'Random':
     case 'random': {
       let randomAllArrNum = Math.floor(Math.random() * allArr.length);
       let randomRanArr = allArr[randomAllArrNum];
@@ -28,19 +29,19 @@ function celebrify (str) {
       console.log('randomQuote: ', randomQuote);
       resultStr = randomQuote;
     } break;
-    // case 'dj Khaled':
-    // case 'dj khaled':
-    // case 'Dj Khaled':
-    // case 'Khaled':
+    case 'dj Khaled':
+    case 'dj khaled':
+    case 'Dj Khaled':
+    case 'Khaled':
     case 'DJ Khaled': {
       let randomNum = Math.floor(Math.random() * khaledArr.length);
       resultStr = khaledArr[randomNum];
     } break;
-    // case 'George Bush':
-    // case 'George W. Bush':
-    // case 'george w. bush':
-    // case 'george bush':
-    // case 'bush':
+    case 'George Bush':
+    case 'George W. Bush':
+    case 'george w. bush':
+    case 'george bush':
+    case 'bush':
     case 'Bush': {
       let randomNum = Math.floor(Math.random() * khaledArr.length);
       resultStr = khaledArr[randomNum];
